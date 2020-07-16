@@ -5,7 +5,7 @@ export default {
     devtool: 'inline-source-map',
     noInfo: false,
     entry: [
-        path.resolve(__dirname, './src/index.js')
+        path.resolve(__dirname, 'src/index')
     ],
     target: 'web',
     output:  {

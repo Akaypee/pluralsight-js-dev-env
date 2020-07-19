@@ -6,7 +6,6 @@ import config from '../webpack.config.dev.js';
 
 /* eslint-disable no-console */
 
-const express = require('express');
 const port = 3000;
 const app = express();
 const __dirname = path.resolve();
